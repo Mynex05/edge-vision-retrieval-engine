@@ -5,10 +5,10 @@
 ---
 
 ## 🏛️ System Architecture & Modules
-
 The engine is structured into clean, decoupled components to ensure high performance and maintainability:
+
+```text
 edge-vision-retrieval-engine/
-│
 ├── src/
 │   ├── core/
 │   │   ├── extractor.py       # Optimized PyTorch backbone with quantization support
@@ -18,8 +18,6 @@ edge-vision-retrieval-engine/
 │   └── ...
 ├── requirements.txt
 └── README.md
----
-
 ## 🚀 Key Features
 
 1. **Lightweight Feature Extractor (`extractor.py`)**: Simulates and builds edge-optimized convolutional/ViT backbones with dynamic INT8 post-training quantization for low-latency inference.
